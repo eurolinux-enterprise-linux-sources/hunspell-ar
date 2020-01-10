@@ -3,7 +3,7 @@
 Summary: Arabic hunspell dictionaries
 Name: hunspell-ar
 Version: 0.%{upstreamid}
-Release: 10%{?dist}
+Release: 9%{?dist}
 License: GPLv2 or LGPLv2 or MPLv1.1
 Group: Applications/Text
 URL: http://ayaspell.sourceforge.net/
@@ -39,9 +39,6 @@ popd
 %{_datadir}/myspell/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20080110-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20080110-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
